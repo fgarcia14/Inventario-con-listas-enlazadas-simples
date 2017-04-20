@@ -52,12 +52,12 @@ namespace Inventario
 		}
 
 		/// <summary>
-		/// Devuelve el nombre del producto
+		/// Devuelve el producto en cuestion
 		/// </summary>
 		/// <returns></returns>
 		public override string ToString()
 		{
-			return nombre;
+			return return codigo+" "+nombre+" "+cantidad+" $"+precio;
 		}
 	}
 }
